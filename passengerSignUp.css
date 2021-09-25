@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap&family=Akaya+Kanadaka&family=Indie+Flower&family=Open+Sans+Condensed:wght@300&family=Sriracha&display=swap');
+
+
+:root{
+    --title-font : 'Cairo', cursive;
+    --secondary-font: 'Cairo', cursive;
+    --body-font: 'Open Sans Condensed', sans-serif;
+    --body-font2: 'Akaya Kanadaka', cursive;
+    --title-font3: 'Montserrat', sans-serif;
+    --title-font2:'Bebas Neue', cursive;
+    --main-font-color: #1676ba;
+    --secondary-font-color: #e9ac0c;
+    --body-font-color: #a8d09d;
+    --body-font-color-dark: #4d555a;
+}
+ 
+ header{
+width: 900px ;
+height: 300px ;
+
+ }
+header li :hover{
+    color: #02b8dd;
+
+}
+    nav{
+        width:940px;
+        margin:0 auto;
+
+        
+       padding:0 50px ;
+    }
+    ul{
+        list-style: none;
+    }
+    header nav ul li a{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-right: 10px;
+        margin-left: 100px;
+        
+
+
+    }
+    header nav ul li {
+        float:left;
+        display: inline-block;
+        padding-right: ;
+
+    }
+    a {
+        text-decoration: none;
+        color:#444;
+    }
+.Login_btn{
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    padding: .6rem 1.1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: white;
+    background-color: var(--main-font-color);
+}
+
+.Login_btn:hover{
+    color: var(--secondary-font-color);
+    background-color: #fff;
+    border: solid 2px var(--main-font-color);
+
+    
